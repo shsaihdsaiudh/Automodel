@@ -1,0 +1,21 @@
+W1120 11:36:25.213000 14413 torch/distributed/run.py:852] 
+W1120 11:36:25.213000 14413 torch/distributed/run.py:852] *****************************************
+W1120 11:36:25.213000 14413 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1120 11:36:25.213000 14413 torch/distributed/run.py:852] *****************************************
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<00:49,  6.25it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:09,  4.48it/s]Loading weights:   0%|          | 1/311 [00:00<01:08,  4.51it/s]Loading weights:  97%|█████████▋| 301/311 [00:00<00:00, 1404.54it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 1169.19it/s]
+Loading weights:   0%|          | 1/311 [00:00<01:14,  4.14it/s]Loading weights:   0%|          | 1/311 [00:00<01:11,  4.35it/s]Loading weights:   0%|          | 1/311 [00:00<01:15,  4.11it/s]Loading weights:  86%|████████▌ | 268/311 [00:00<00:00, 1037.90it/s]Loading weights:  86%|████████▌ | 268/311 [00:00<00:00, 1029.41it/s]Loading weights:  90%|█████████ | 280/311 [00:00<00:00, 1029.74it/s]Loading weights:  88%|████████▊ | 274/311 [00:00<00:00, 1046.29it/s]Loading weights:  90%|████████▉ | 279/311 [00:00<00:00, 1023.04it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 870.81it/s] 
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 872.13it/s] 
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 855.16it/s] 
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 872.46it/s] 
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 852.33it/s] 
+Loading weights:   0%|          | 1/311 [00:00<01:14,  4.14it/s]Loading weights:   0%|          | 1/311 [00:00<01:09,  4.44it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 918.72it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 964.19it/s]
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, "bucket_view": 0, "steps": 30, "step_ms_median": 155.268, "step_ms_p10": 154.805, "step_ms_p90": 156.945, "wall_step_ms": 155.742, "host_ms_median": 155.171, "fwd_bwd_ms": 152.809, "clip_ms": 0.42, "opt_ms": 2.044, "zero_ms": 0.003, "tokens_per_s_per_gpu": 13149.966, "peak_mem_gib": 9.337, "profile": null, "torch": "2.10.0+cu130", "gpu": "NVIDIA H20", "host": "<host>"}

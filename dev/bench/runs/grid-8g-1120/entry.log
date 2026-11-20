@@ -1,0 +1,152 @@
+[entry] host=<host> run=grid-8g-1120 gpus=8 start=2026-11-20T11:01:57+08:00
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, 
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forwa
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_f
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0, 
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forwa
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_f
+{"tag": "Qwen3-0.6B_bf16_s512_b4_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_for
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after
+{"tag": "Qwen3-0.6B_bf16_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_for
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after
+{"tag": "Qwen3-0.6B_bf16_s4096_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_forward": 0, 
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_forwa
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after_f
+{"tag": "Qwen3-0.6B_bf16_s512_b1_ga4_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "resha
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "r
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "resha
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "r
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "res
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, 
+{"tag": "Qwen3-0.6B_fp32_master_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world":
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "res
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, 
+{"tag": "Qwen3-0.6B_fp32_master_s4096_b1_ga1_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world":
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_none", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "none", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_aft
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_after
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_af
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_fsdp2", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "reshard_a
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "resha
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_replicate", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "replicate", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8, "r
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga4_fsdp2_shard", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 4, "world": 8
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forw
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_
+{"tag": "Qwen3-1.7B_bf16_s512_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward":
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forw
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_
+{"tag": "Qwen3-1.7B_bf16_s512_b4_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forwar
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_fo
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_afte
+{"tag": "Qwen3-1.7B_bf16_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forwar
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_fo
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_afte
+{"tag": "Qwen3-1.7B_bf16_s4096_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_afte
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "resh
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "
+{"tag": "Qwen3-1.7B_fp32_master_s512_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_afte
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_a
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "resh
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "
+{"tag": "Qwen3-1.7B_fp32_master_s512_b4_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshar
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "re
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8,
+{"tag": "Qwen3-1.7B_fp32_master_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 2048, "mbs": 1, "ga": 1, "world"
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_none", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "none", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_ddp", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_af
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_ddp_bv", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "ddp", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_fsdp2", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshar
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_fsdp2_raf", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "re
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_replicate", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "replicate", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8,
+{"tag": "Qwen3-1.7B_fp32_master_s4096_b1_ga1_fsdp2_shard", "model": "Qwen3-1.7B", "n_params": 1720574976, "mode": "fsdp2_shard", "precision": "fp32_master", "seq_len": 4096, "mbs": 1, "ga": 1, "world"
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_none", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, "
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_ddp", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, "bu
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_ddp_bv", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, 
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_fsdp2", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_replicate", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forw
+{"tag": "Qwen3-4B_bf16_s512_b1_ga1_fsdp2_shard", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_none", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "none", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0, "
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_ddp", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0, "bu
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_ddp_bv", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0, 
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_fsdp2", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_fsdp2_raf", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward"
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_replicate", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "replicate", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forw
+{"tag": "Qwen3-4B_bf16_s512_b4_ga1_fsdp2_shard", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_none", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "none", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_ddp", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, "
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_ddp_bv", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_fsdp2", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_fsdp2_raf", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forwar
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_replicate", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "replicate", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_after_fo
+{"tag": "Qwen3-4B_bf16_s2048_b1_ga1_fsdp2_shard", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2_shard", "precision": "bf16", "seq_len": 2048, "mbs": 1, "ga": 1, "world": 8, "reshard_afte
+{"tag": "Qwen3-4B_bf16_s4096_b1_ga1_none", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "none", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0,
+{"tag": "Qwen3-4B_bf16_s4096_b1_ga1_ddp", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0, "
+{"tag": "Qwen3-4B_bf16_s4096_b1_ga1_ddp_bv", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "ddp", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 0
+{"tag": "Qwen3-4B_bf16_s4096_b1_ga1_fsdp2", "model": "Qwen3-4B", "n_params": 4022468096, "mode": "fsdp2", "precision": "bf16", "seq_len": 4096, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 

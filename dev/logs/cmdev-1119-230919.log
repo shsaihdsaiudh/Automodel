@@ -1,0 +1,77 @@
+Using CPython 3.12.16
+Creating virtual environment at: .venv
+   Building nemo-automodel @ file:///planning-users/yangyeyuan/automodel-4122/Automodel
+Downloading torch (612.0MiB)
+Downloading sphinx (3.4MiB)
+Downloading accessible-pygments (1.3MiB)
+Downloading pygments (1.2MiB)
+ Downloaded accessible-pygments
+Downloading tiktoken (1.1MiB)
+Downloading aiohttp (1.8MiB)
+Downloading tokenizers (3.2MiB)
+Downloading networkx (1.9MiB)
+ Downloaded tiktoken
+Downloading pyroaring (2.0MiB)
+Downloading torchao (3.2MiB)
+Downloading sphinx-design (2.1MiB)
+ Downloaded pyroaring
+Downloading nvidia-cuda-nvdisasm (4.6MiB)
+ Downloaded pygments
+Downloading pycountry (6.0MiB)
+ Downloaded tokenizers
+ Downloaded sphinx-design
+Downloading pillow (6.8MiB)
+Downloading mistral-common (6.3MiB)
+Downloading scikit-learn (9.0MiB)
+ Downloaded nvidia-cuda-nvdisasm
+ Downloaded aiohttp
+Downloading cuda-bindings (11.6MiB)
+Downloading pydantic-core (2.0MiB)
+Downloading nvidia-cutlass-dsl-libs-base (2.7MiB)
+ Downloaded pydantic-core
+Downloading pydata-sphinx-theme (6.4MiB)
+ Downloaded mistral-common
+Downloading babel (9.7MiB)
+Downloading transformers (12.0MiB)
+Downloading pandas (11.8MiB)
+ Downloaded nvidia-cutlass-dsl-libs-base
+ Downloaded pillow
+Downloading numpy (17.1MiB)
+ Downloaded cuda-bindings
+ Downloaded pydata-sphinx-theme
+Downloading scipy (34.0MiB)
+Downloading sentencepiece (1.3MiB)
+ Downloaded sphinx
+ Downloaded sentencepiece
+Downloading pyarrow (47.8MiB)
+ Downloaded torchao
+Downloading nvidia-nvshmem-cu13 (57.6MiB)
+ Downloaded networkx
+Downloading hf-xet (63.5MiB)
+ Downloaded pycountry
+ Downloaded nvidia-nvshmem-cu13
+      Built nemo-automodel @ file:///planning-users/yangyeyuan/automodel-4122/Automodel
+ Downloaded hf-xet
+Downloading nvidia-cutlass-dsl-libs-cu12 (84.4MiB)
+ Downloaded nvidia-cutlass-dsl-libs-cu12
+ Downloaded numpy
+ Downloaded scikit-learn
+ Downloaded babel
+ Downloaded pyarrow
+ Downloaded pandas
+Downloading nvidia-cusparselt-cu13 (162.0MiB)
+ Downloaded scipy
+Downloading triton (179.5MiB)
+ Downloaded nvidia-cusparselt-cu13
+Downloading nvidia-nccl-cu13 (187.4MiB)
+ Downloaded nvidia-nccl-cu13
+ Downloaded triton
+ Downloaded transformers
+error: Failed to download `onnxruntime-gpu==1.24.3`
+  cause: Request failed after 3 retries in 43.7s
+  cause: Failed to fetch: https://aiinfra.pkgs.visualstudio.com/2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/62a612ee-4dee-42bc-8205-15b672eb4e4b/pypi/download/onnxruntime-gpu/1.24.3/onnxruntime_gpu-1.24.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+  cause: error sending request for url (https://aiinfra.pkgs.visualstudio.com/2692857e-05ef-43b4-ba9c-ccf1c22c437c/_packaging/62a612ee-4dee-42bc-8205-15b672eb4e4b/pypi/download/onnxruntime-gpu/1.24.3/onnxruntime_gpu-1.24.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl)
+  cause: client error (Connect)
+  cause: operation timed out
+
+hint: `onnxruntime-gpu` (v1.24.3) was included because `nemo-automodel:test` depends on `onnxruntime-gpu`

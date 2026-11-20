@@ -1,0 +1,128 @@
+Qwen3-0.6B_bf16_s512_b4_ga1_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 4 --ga 1 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode ddp
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode ddp --bucket-view 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_fsdp2 --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode fsdp2
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_fsdp2_raf --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode fsdp2 --reshard-after-forward 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s2048_b1_ga1_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 2048 --mbs 1 --ga 1 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode ddp
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode ddp --bucket-view 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_fsdp2 --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode fsdp2
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_fsdp2_raf --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode fsdp2 --reshard-after-forward 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s4096_b1_ga1_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 4096 --mbs 1 --ga 1 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode ddp
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode ddp --bucket-view 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_fsdp2 --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode fsdp2
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_fsdp2_raf --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode fsdp2 --reshard-after-forward 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_bf16_s512_b1_ga4_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision bf16 --seq-len 512 --mbs 1 --ga 4 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode ddp
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode ddp --bucket-view 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2 --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode fsdp2
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2_raf --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode fsdp2 --reshard-after-forward 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b1_ga1_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 1 --ga 1 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode ddp
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode ddp --bucket-view 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_fsdp2 --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode fsdp2
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_fsdp2_raf --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode fsdp2 --reshard-after-forward 1
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s512_b4_ga1_replicate --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode replicate
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use
+Qwen3-0.6B_fp32_master_s2048_b1_ga1_none --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B --precision fp32_master --seq-len 2048 --mbs 1 --ga 1 --mode none
+    self._store = TCPStore(  # type: ignore[call-arg]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.distributed.DistNetworkError: The server socket has failed to listen on any local network address. port: 29500, useIpv6: false, code: -98, name: EADDRINUSE, message: address already in use

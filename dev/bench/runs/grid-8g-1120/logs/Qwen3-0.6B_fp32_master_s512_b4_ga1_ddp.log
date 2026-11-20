@@ -1,0 +1,21 @@
+W1120 11:29:13.054000 11261 torch/distributed/run.py:852] 
+W1120 11:29:13.054000 11261 torch/distributed/run.py:852] *****************************************
+W1120 11:29:13.054000 11261 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1120 11:29:13.054000 11261 torch/distributed/run.py:852] *****************************************
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:20,  3.85it/s]Loading weights:   0%|          | 1/311 [00:00<01:20,  3.86it/s]Loading weights:   0%|          | 1/311 [00:00<01:19,  3.88it/s]Loading weights:   0%|          | 1/311 [00:00<01:21,  3.80it/s]Loading weights:   0%|          | 1/311 [00:00<01:21,  3.79it/s]Loading weights:   0%|          | 1/311 [00:00<01:21,  3.80it/s]Loading weights:   0%|          | 1/311 [00:00<01:25,  3.62it/s]Loading weights:   0%|          | 1/311 [00:00<01:25,  3.62it/s]Loading weights:  76%|███████▌  | 236/311 [00:00<00:00, 835.22it/s]Loading weights:  83%|████████▎ | 258/311 [00:00<00:00, 915.17it/s]Loading weights:  86%|████████▌ | 268/311 [00:00<00:00, 940.01it/s]Loading weights:  79%|███████▉  | 246/311 [00:00<00:00, 857.92it/s]Loading weights:  79%|███████▉  | 247/311 [00:00<00:00, 839.72it/s]Loading weights:  85%|████████▍ | 263/311 [00:00<00:00, 921.17it/s]Loading weights:  92%|█████████▏| 285/311 [00:00<00:00, 966.48it/s]Loading weights:  77%|███████▋  | 241/311 [00:00<00:00, 838.03it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 785.20it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 785.17it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 784.81it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 779.52it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 751.12it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 757.90it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 740.54it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 753.64it/s]
+{"tag": "Qwen3-0.6B_fp32_master_s512_b4_ga1_ddp", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "fp32_master", "seq_len": 512, "mbs": 4, "ga": 1, "world": 8, "reshard_after_forward": 0, "bucket_view": 0, "steps": 30, "step_ms_median": 149.856, "step_ms_p10": 149.736, "step_ms_p90": 150.198, "wall_step_ms": 149.924, "host_ms_median": 149.874, "fwd_bwd_ms": 131.366, "clip_ms": 2.959, "opt_ms": 15.535, "zero_ms": 0.003, "tokens_per_s_per_gpu": 13660.229, "peak_mem_gib": 17.936, "profile": null, "torch": "2.10.0+cu130", "gpu": "NVIDIA H20", "host": "<host>"}

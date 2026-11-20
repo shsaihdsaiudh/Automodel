@@ -1,0 +1,16 @@
+Qwen3-4B_fp32_master_s512_b4_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-4B --precision fp32_master --seq-len 512 --mbs 4 --ga 1 --mode ddp
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Qwen3-4B_fp32_master_s2048_b1_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-4B --precision fp32_master --seq-len 2048 --mbs 1 --ga 1 --mode ddp
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Qwen3-4B_fp32_master_s4096_b1_ga1_ddp --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-4B --precision fp32_master --seq-len 4096 --mbs 1 --ga 1 --mode ddp
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+Qwen3-4B_fp32_master_s4096_b1_ga1_ddp_bv --model /planning-users/yangyeyuan/automodel-4122/models/Qwen3-4B --precision fp32_master --seq-len 4096 --mbs 1 --ga 1 --mode ddp --bucket-view 1
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

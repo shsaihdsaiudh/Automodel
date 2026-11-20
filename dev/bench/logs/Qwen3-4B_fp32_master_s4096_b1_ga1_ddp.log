@@ -1,0 +1,115 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:  11%|█         | 42/398 [00:00<00:00, 419.95it/s]Loading weights:  25%|██▍       | 99/398 [00:00<00:00, 497.49it/s]Loading weights:  39%|███▊      | 154/398 [00:00<00:00, 495.97it/s]Loading weights:  53%|█████▎    | 212/398 [00:00<00:00, 525.58it/s]Loading weights:  67%|██████▋   | 268/398 [00:00<00:00, 533.12it/s]Loading weights:  81%|████████  | 323/398 [00:00<00:00, 538.62it/s]Loading weights:  97%|█████████▋| 385/398 [00:00<00:00, 561.25it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 540.29it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/bench/ddp_vs_fsdp2.py", line 258, in <module>
+[rank0]:     main()
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/bench/ddp_vs_fsdp2.py", line 177, in main
+[rank0]:     loss = train_step(model, opt, params, batches, step, args, sync_ctx, autocast)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/bench/ddp_vs_fsdp2.py", line 132, in train_step
+[rank0]:     loss = model(input_ids=x, labels=x, use_cache=False).loss / args.ga
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1666, in forward
+[rank0]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank0]:          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/parallel/distributed.py", line 1492, in _run_ddp_forward
+[rank0]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 939, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 477, in forward
+[rank0]:     outputs: BaseModelOutputWithPast = self.model(
+[rank0]:                                        ^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1068, in wrapper
+[rank0]:     output = func(self, *args, **kwargs)
+[rank0]:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/utils/output_capturing.py", line 287, in wrapper
+[rank0]:     outputs = func(self, *args, **kwargs)
+[rank0]:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 413, in forward
+[rank0]:     hidden_states = decoder_layer(
+[rank0]:                     ^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/modeling_layers.py", line 110, in __call__
+[rank0]:     return super().__call__(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 321, in forward
+[rank0]:     hidden_states = self.mlp(hidden_states)
+[rank0]:                     ^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 82, in forward
+[rank0]:     down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+[rank0]:                                                                 ^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 134, in forward
+[rank0]:     return F.linear(input, self.weight, self.bias)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 48.00 MiB. GPU 0 has a total capacity of 95.07 GiB of which 7.50 MiB is free. Including non-PyTorch memory, this process has 95.06 GiB memory in use. Of the allocated memory 91.98 GiB is allocated by PyTorch, and 2.02 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:[W1120 01:22:26.743036336 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E1120 01:22:28.107000 300354 torch/distributed/elastic/multiprocessing/api.py:984] failed (exitcode: 1) local_rank: 0 (pid: 300379) of binary: /planning-users/yangyeyuan/automodel-4122/Automodel/.venv/bin/python
+Traceback (most recent call last):
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 317, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+ddp_vs_fsdp2.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-11-20_01:22:28
+  host      : <host>
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 300379)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

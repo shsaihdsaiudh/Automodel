@@ -1,0 +1,58 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   9%|▉         | 37/398 [00:00<00:00, 365.80it/s]Loading weights:  23%|██▎       | 92/398 [00:00<00:00, 465.53it/s]Loading weights:  39%|███▊      | 154/398 [00:00<00:00, 513.64it/s]Loading weights:  53%|█████▎    | 212/398 [00:00<00:00, 537.21it/s]Loading weights:  69%|██████▊   | 273/398 [00:00<00:00, 562.21it/s]Loading weights:  83%|████████▎ | 330/398 [00:00<00:00, 560.41it/s]Loading weights:  97%|█████████▋| 388/398 [00:00<00:00, 559.29it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 547.05it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/bench/ddp_vs_fsdp2.py", line 258, in <module>
+[rank0]:     main()
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/bench/ddp_vs_fsdp2.py", line 181, in main
+[rank0]:     opt.step()
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 526, in wrapper
+[rank0]:     out = func(*args, **kwargs)
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 81, in _use_grad
+[rank0]:     ret = func(*args, **kwargs)
+[rank0]:           ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 248, in step
+[rank0]:     adam(
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/optimizer.py", line 151, in maybe_fallback
+[rank0]:     return func(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 970, in adam
+[rank0]:     func(
+[rank0]:   File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/optim/adam.py", line 791, in _multi_tensor_adam
+[rank0]:     exp_avg_sq_sqrt = torch._foreach_sqrt(device_exp_avg_sqs)
+[rank0]:                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 96.00 MiB. GPU 0 has a total capacity of 95.07 GiB of which 83.50 MiB is free. Including non-PyTorch memory, this process has 94.98 GiB memory in use. Of the allocated memory 90.36 GiB is allocated by PyTorch, and 3.57 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:[W1120 01:12:42.668735693 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+E1120 01:12:44.452000 297784 torch/distributed/elastic/multiprocessing/api.py:984] failed (exitcode: 1) local_rank: 0 (pid: 297809) of binary: /planning-users/yangyeyuan/automodel-4122/Automodel/.venv/bin/python
+Traceback (most recent call last):
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 362, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 991, in main
+    run(args)
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/run.py", line 982, in run
+    elastic_launch(
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 170, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 317, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+ddp_vs_fsdp2.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-11-20_01:12:44
+  host      : <host>
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 297809)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

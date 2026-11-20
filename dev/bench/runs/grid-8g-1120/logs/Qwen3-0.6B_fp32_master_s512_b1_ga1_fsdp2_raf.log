@@ -1,0 +1,21 @@
+W1120 11:26:52.189000 10221 torch/distributed/run.py:852] 
+W1120 11:26:52.189000 10221 torch/distributed/run.py:852] *****************************************
+W1120 11:26:52.189000 10221 torch/distributed/run.py:852] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1120 11:26:52.189000 10221 torch/distributed/run.py:852] *****************************************
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:12,  4.30it/s]Loading weights:   0%|          | 1/311 [00:00<01:12,  4.30it/s]Loading weights:   0%|          | 1/311 [00:00<01:15,  4.10it/s]Loading weights:   0%|          | 1/311 [00:00<01:21,  3.81it/s]Loading weights:   0%|          | 1/311 [00:00<01:25,  3.62it/s]Loading weights:   0%|          | 1/311 [00:00<01:18,  3.96it/s]Loading weights:  77%|███████▋  | 241/311 [00:00<00:00, 914.26it/s]Loading weights:  83%|████████▎ | 257/311 [00:00<00:00, 975.32it/s]Loading weights:  83%|████████▎ | 258/311 [00:00<00:00, 947.26it/s]Loading weights:  90%|█████████ | 281/311 [00:00<00:00, 988.91it/s]Loading weights:  97%|█████████▋| 301/311 [00:00<00:00, 1021.72it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 822.99it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 810.93it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 813.13it/s] 
+
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 810.08it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 784.15it/s]
+Loading weights:   0%|          | 1/311 [00:00<01:19,  3.89it/s]Loading weights:  90%|████████▉ | 279/311 [00:00<00:00, 998.70it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 837.16it/s]
+Loading weights:   0%|          | 1/311 [00:00<01:15,  4.10it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 879.66it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 914.60it/s]
+{"tag": "Qwen3-0.6B_fp32_master_s512_b1_ga1_fsdp2_raf", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "fsdp2", "precision": "fp32_master", "seq_len": 512, "mbs": 1, "ga": 1, "world": 8, "reshard_after_forward": 1, "bucket_view": 0, "steps": 30, "step_ms_median": 156.291, "step_ms_p10": 155.554, "step_ms_p90": 160.25, "wall_step_ms": 157.423, "host_ms_median": 156.045, "fwd_bwd_ms": 137.408, "clip_ms": 3.022, "opt_ms": 15.626, "zero_ms": 0.003, "tokens_per_s_per_gpu": 3252.379, "peak_mem_gib": 11.165, "profile": null, "torch": "2.10.0+cu130", "gpu": "NVIDIA H20", "host": "<host>"}

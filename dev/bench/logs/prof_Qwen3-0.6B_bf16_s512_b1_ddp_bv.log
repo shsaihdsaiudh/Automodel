@@ -1,0 +1,5 @@
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 11496.92it/s]
+/planning-users/yangyeyuan/automodel-4122/Automodel/.venv/lib/python3.12/site-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.
+  _warn_once(
+{"tag": "prof_Qwen3-0.6B_bf16_s512_b1_ddp_bv", "model": "Qwen3-0.6B", "n_params": 596049920, "mode": "ddp", "precision": "bf16", "seq_len": 512, "mbs": 1, "ga": 1, "world": 1, "reshard_after_forward": 0, "bucket_view": 1, "steps": 10, "step_ms_median": 83.931, "step_ms_p10": 82.578, "step_ms_p90": 87.438, "wall_step_ms": 84.317, "host_ms_median": 83.748, "fwd_bwd_ms": 70.627, "clip_ms": 3.018, "opt_ms": 10.287, "zero_ms": 0.003, "tokens_per_s_per_gpu": 6072.329, "peak_mem_gib": 6.352, "profile": "profiles/prof_Qwen3-0.6B_bf16_s512_b1_ddp_bv_rank0", "torch": "2.10.0+cu130", "gpu": "NVIDIA H20", "host": "<host>"}

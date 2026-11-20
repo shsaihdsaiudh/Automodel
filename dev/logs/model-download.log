@@ -1,0 +1,87 @@
+warning: `--locked` has no effect when used outside of a project
+warning: `--no-sync` has no effect when used outside of a project
+[mi_image_guard] not in rank
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Still waiting to acquire lock on models/Qwen3-0.6B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-0.6B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-0.6B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-0.6B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-0.6B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Downloading 'LICENSE' to 'models/Qwen3-0.6B/.cache/huggingface/download/DhCjcNQuMpl4FL346qr3tvNUCgY=.6634c8cc3133b3848ec74b9f275acaaa1ea618ab.incomplete'
+Download complete. Moving file to models/Qwen3-0.6B/LICENSE
+Downloading 'README.md' to 'models/Qwen3-0.6B/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.a50b19e76f5274f9ec99f5a5d99873dca5bff25e.incomplete'
+Downloading '.gitattributes' to 'models/Qwen3-0.6B/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.52373fe24473b1aa44333d318f578ae6bf04b49b.incomplete'
+Download complete. Moving file to models/Qwen3-0.6B/README.md
+Download complete. Moving file to models/Qwen3-0.6B/.gitattributes
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:04,  2.05it/s]Fetching 10 files:  70%|███████   | 7/10 [00:05<00:02,  1.22it/s]Fetching 10 files: 100%|██████████| 10/10 [00:05<00:00,  1.77it/s]
+/planning-users/yangyeyuan/automodel-4122/models/Qwen3-0.6B
+warning: `--locked` has no effect when used outside of a project
+warning: `--no-sync` has no effect when used outside of a project
+[mi_image_guard] not in rank
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Downloading 'generation_config.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.20a8a9156fc8c3f25295ca067f61fdf120d517c5.incomplete'
+Still waiting to acquire lock on models/Qwen3-1.7B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-1.7B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-1.7B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-1.7B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-1.7B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Download complete. Moving file to models/Qwen3-1.7B/generation_config.json
+Downloading 'model.safetensors.index.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/yVzAsSxRSINSz-tQbpx-TLpfkLU=.986d7db875b47d21f68530f6baac038f1b297b39.incomplete'
+Downloading 'merges.txt' to 'models/Qwen3-1.7B/.cache/huggingface/download/PtHk0z_I45atnj23IIRhTExwT3w=.31349551d90c7606f325fe0f11bbb8bd5fa0d7c7.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/model.safetensors.index.json
+Downloading 'tokenizer.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4.incomplete'
+Downloading 'config.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.044a86ecf7cb32238f3fae4184e55d354787edec.incomplete'
+Downloading 'model-00001-of-00002.safetensors' to 'models/Qwen3-1.7B/.cache/huggingface/download/aoe4E07IMh7reFyUkVoVk040mQk=.169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5.incomplete'
+Downloading 'model-00002-of-00002.safetensors' to 'models/Qwen3-1.7B/.cache/huggingface/download/Dr_lZJDwE1cnGAQMwA77jJEQIk8=.912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/config.json
+Downloading 'tokenizer_config.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.417d038a63fa3de29cfde265caedae14d1a58d92.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/tokenizer_config.json
+Download complete. Moving file to models/Qwen3-1.7B/merges.txt
+Downloading 'vocab.json' to 'models/Qwen3-1.7B/.cache/huggingface/download/j3m-Hy6QvBddw8RXA1uSWl1AJ0c=.4783fe10ac3adce15ac8f358ef5462739852c569.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/tokenizer.json
+Download complete. Moving file to models/Qwen3-1.7B/vocab.json
+Downloading '.gitattributes' to 'models/Qwen3-1.7B/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.52373fe24473b1aa44333d318f578ae6bf04b49b.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/.gitattributes
+Fetching 12 files:   8%|▊         | 1/12 [00:01<00:11,  1.07s/it]Downloading 'LICENSE' to 'models/Qwen3-1.7B/.cache/huggingface/download/DhCjcNQuMpl4FL346qr3tvNUCgY=.6634c8cc3133b3848ec74b9f275acaaa1ea618ab.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/LICENSE
+Fetching 12 files:  17%|█▋        | 2/12 [00:02<00:10,  1.07s/it]Downloading 'README.md' to 'models/Qwen3-1.7B/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.88aaef81cfe31bcdfe47203649a69ff12042826a.incomplete'
+Download complete. Moving file to models/Qwen3-1.7B/README.md
+Fetching 12 files:  25%|██▌       | 3/12 [00:05<00:18,  2.02s/it]Download complete. Moving file to models/Qwen3-1.7B/model-00002-of-00002.safetensors
+Download complete. Moving file to models/Qwen3-1.7B/model-00001-of-00002.safetensors
+Fetching 12 files:  58%|█████▊    | 7/12 [00:40<00:35,  7.00s/it]Fetching 12 files: 100%|██████████| 12/12 [00:40<00:00,  3.41s/it]
+/planning-users/yangyeyuan/automodel-4122/models/Qwen3-1.7B
+warning: `--locked` has no effect when used outside of a project
+warning: `--no-sync` has no effect when used outside of a project
+[mi_image_guard] not in rank
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]Still waiting to acquire lock on models/Qwen3-4B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-4B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-4B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-4B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Still waiting to acquire lock on models/Qwen3-4B/.cache/huggingface/.gitignore.lock (elapsed: 0.1 seconds)
+Downloading 'config.json' to 'models/Qwen3-4B/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.e49eccdc32f36da9c09cfa0e737084f9e0105e5e.incomplete'
+Download complete. Moving file to models/Qwen3-4B/config.json
+Downloading 'merges.txt' to 'models/Qwen3-4B/.cache/huggingface/download/PtHk0z_I45atnj23IIRhTExwT3w=.31349551d90c7606f325fe0f11bbb8bd5fa0d7c7.incomplete'
+Downloading 'model-00003-of-00003.safetensors' to 'models/Qwen3-4B/.cache/huggingface/download/NmVQgThqhsRkG2FlXLh-M51MilA=.e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1.incomplete'
+Downloading 'README.md' to 'models/Qwen3-4B/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.2de5ee7eee214bb55ea33ec7505c5838a7adf7f6.incomplete'
+Downloading 'generation_config.json' to 'models/Qwen3-4B/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.20a8a9156fc8c3f25295ca067f61fdf120d517c5.incomplete'
+Download complete. Moving file to models/Qwen3-4B/README.md
+Downloading 'model-00001-of-00003.safetensors' to 'models/Qwen3-4B/.cache/huggingface/download/Y6g195DXbsCiN_Ka1NwH6jyLkvc=.328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223.incomplete'
+Downloading 'model-00002-of-00003.safetensors' to 'models/Qwen3-4B/.cache/huggingface/download/D5-QTaCbl9VUFv9Wr0C28eFewRc=.6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5.incomplete'
+Downloading '.gitattributes' to 'models/Qwen3-4B/.cache/huggingface/download/wPaCkH-WbT7GsmxMKKrNZTV4nSM=.52373fe24473b1aa44333d318f578ae6bf04b49b.incomplete'
+Downloading 'LICENSE' to 'models/Qwen3-4B/.cache/huggingface/download/DhCjcNQuMpl4FL346qr3tvNUCgY=.6634c8cc3133b3848ec74b9f275acaaa1ea618ab.incomplete'
+Download complete. Moving file to models/Qwen3-4B/generation_config.json
+Download complete. Moving file to models/Qwen3-4B/.gitattributes
+Downloading 'model.safetensors.index.json' to 'models/Qwen3-4B/.cache/huggingface/download/yVzAsSxRSINSz-tQbpx-TLpfkLU=.95c0a0059df040d75dc6c396b174382cf61d2f91.incomplete'
+Fetching 13 files:   8%|▊         | 1/13 [00:00<00:05,  2.03it/s]Download complete. Moving file to models/Qwen3-4B/LICENSE
+Downloading 'tokenizer.json' to 'models/Qwen3-4B/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4.incomplete'
+Download complete. Moving file to models/Qwen3-4B/model.safetensors.index.json
+Downloading 'tokenizer_config.json' to 'models/Qwen3-4B/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.417d038a63fa3de29cfde265caedae14d1a58d92.incomplete'
+Download complete. Moving file to models/Qwen3-4B/tokenizer_config.json
+Downloading 'vocab.json' to 'models/Qwen3-4B/.cache/huggingface/download/j3m-Hy6QvBddw8RXA1uSWl1AJ0c=.4783fe10ac3adce15ac8f358ef5462739852c569.incomplete'
+Download complete. Moving file to models/Qwen3-4B/merges.txt
+Fetching 13 files:  46%|████▌     | 6/13 [00:00<00:00, 12.72it/s]Download complete. Moving file to models/Qwen3-4B/vocab.json
+Download complete. Moving file to models/Qwen3-4B/tokenizer.json
+Download complete. Moving file to models/Qwen3-4B/model-00003-of-00003.safetensors
+Fetching 13 files:  46%|████▌     | 6/13 [00:20<00:00, 12.72it/s]Download complete. Moving file to models/Qwen3-4B/model-00002-of-00003.safetensors
+Download complete. Moving file to models/Qwen3-4B/model-00001-of-00003.safetensors
+Fetching 13 files:  54%|█████▍    | 7/13 [01:26<01:43, 17.28s/it]Fetching 13 files: 100%|██████████| 13/13 [01:26<00:00,  6.66s/it]
+/planning-users/yangyeyuan/automodel-4122/models/Qwen3-4B
+ALLDONE
